@@ -13,10 +13,10 @@ meta-spec:
   version: 1.4
 name: WWW-Mechanize-Boilerplate
 requires:
-  Data::Dumper: 0
+  Data::Dump: 0
   Moose: 0
   Test::Differences: 0
   Test::MockObject: 0
   Test::More: 0
   WWW::Mechanize: 0
-version: 0.01
+version: 0.02

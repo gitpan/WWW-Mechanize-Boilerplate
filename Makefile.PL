@@ -20,14 +20,14 @@ my %WriteMakefileArgs = (
   "LICENSE" => "perl",
   "NAME" => "WWW::Mechanize::Boilerplate",
   "PREREQ_PM" => {
-    "Data::Dumper" => 0,
+    "Data::Dump" => 0,
     "Moose" => 0,
     "Test::Differences" => 0,
     "Test::MockObject" => 0,
     "Test::More" => 0,
     "WWW::Mechanize" => 0
   },
-  "VERSION" => "0.01",
+  "VERSION" => "0.02",
   "test" => {
     "TESTS" => "t/*.t"
   }

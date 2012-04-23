@@ -1,6 +1,6 @@
 package WWW::Mechanize::Boilerplate;
 {
-  $WWW::Mechanize::Boilerplate::VERSION = '0.01';
+  $WWW::Mechanize::Boilerplate::VERSION = '0.02';
 }
 
 use strict;
@@ -21,7 +21,7 @@ WWW::Mechanize::Boilerplate - Compose Mechanize macros from specifications
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 DESCRIPTION
 
@@ -694,7 +694,7 @@ The original idea for this was conceived during my time working at the most
 excellent L<Net-A-Porter|http://www.net-a-porter.com/>, and the work needed to
 create this release during one of their regular hack days.
 
-L<Dave Cross|http://search.cpan.org/~davecross/> contributed invaluable ideas
+L<Dave Cross|http://metacpan.org/author/DAVECROSS> contributed invaluable ideas
 and code.
 
 =cut
