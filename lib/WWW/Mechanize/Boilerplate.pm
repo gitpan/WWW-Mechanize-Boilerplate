@@ -1,6 +1,6 @@
 package WWW::Mechanize::Boilerplate;
 {
-  $WWW::Mechanize::Boilerplate::VERSION = '0.02';
+  $WWW::Mechanize::Boilerplate::VERSION = '0.03';
 }
 
 use strict;
@@ -21,7 +21,7 @@ WWW::Mechanize::Boilerplate - Compose Mechanize macros from specifications
 
 =head1 VERSION
 
-version 0.02
+version 0.03
 
 =head1 DESCRIPTION
 
@@ -606,7 +606,7 @@ sub indent_note {
     require Test::More; # Only load this if this method is called directly
 
     # Default to 0
-    $indent //= 0;
+    $indent ||= 0;
 
     # This implementation pretty-prints at +1
     $indent++;

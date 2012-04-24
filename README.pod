@@ -599,7 +599,7 @@ sub indent_note {
     require Test::More; # Only load this if this method is called directly
 
     # Default to 0
-    $indent //= 0;
+    $indent ||= 0;
 
     # This implementation pretty-prints at +1
     $indent++;
